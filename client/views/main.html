@@ -1,0 +1,31 @@
+<div class="container contentpage-background">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="header">
+            <div class="user-options">
+                <p class="logged-user">Welcome, {{ loggedInUser.firstname }} // 
+                    <span ng-click="goToUserManagment()" class="glyphicon glyphicon-cog user-management-cog" aria-hidden="true"></span> // 
+                    <span> <button class="logout-button" ng-click="logout()">Logout</button> </span> 
+                </p>
+            </div>
+            <div class="header-title-container">
+                <h1 class="header-title">Open Spaces // <span> <button class="compose-button" ng-click="goToComposer()">Compose </button> </h1>
+            </div>
+        </div>
+    </nav>
+    <div class="content-body">
+        <div class="body-title">
+            <h1>Select Category:</h1>
+        </div>
+        <div class="category-container">
+            <div class="category-list" ng-repeat="category in categories">
+            <a class="div-link" ng-href="/categories/{{ category.id }}">
+                <div class="category-item" id="category{{ category.id }}">
+                    <h2 id="category"> {{ category.name }} </h2>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 

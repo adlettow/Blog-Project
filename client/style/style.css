@@ -1,0 +1,345 @@
+/*css classes */
+.container {
+    min-width: 100%;
+    min-height: 700px;
+    background-size: cover;
+}
+
+.contentpage-background {
+    width: 100%;
+    background-image: url('images/blue-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title-container {
+    float: left;
+}
+
+.header-title {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.compose-button {
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    cursor: pointer;
+    color: blue;
+}
+
+.compose-button:hover {
+    color: rgba(250, 250, 250, .8);
+}
+
+.logout-button {
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.logout-button:hover {
+    color: lightslategrey;
+}
+
+.user-management-cog {
+    cursor: pointer;
+}
+
+.user-management-cog:hover {
+    color: lightslategrey;
+}
+
+.user-options {
+    margin-top: 20px;
+    float: right;
+    margin-right: 40px;
+    font-size: 24px;
+}
+
+.input-button {
+    color: #00a9e0;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 0 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.body-title {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.content-body {
+    text-align: center;
+    clear: both;
+    margin-top: 80px;
+}
+
+.category-container {
+    padding-top: 80px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.category-list {
+    margin: 10px auto;
+}
+
+.category-item {
+    height: 100px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/*end of css classes*/
+
+
+.div-link {
+    color: #00a9e0;
+}
+
+.div-link:hover {
+    text-decoration: none;
+}
+
+/*.blog-content {
+    margin: 230px auto;
+    padding: 0;
+    width: 60%;
+    z-index:5;
+    overflow:auto;
+}*/
+
+/*.update-div {
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    overflow: hidden;
+    border: 2px black solid;
+}*/
+
+.list-group-item {
+   background-color:rgba(255,255,255,.8);
+   text-align: center;
+   border: none;
+   color: ghostwhite;
+}
+
+.list-group-item:hover {
+   background-color:rgba(255,255,255,.7);
+}
+
+#category1 {
+    background-image: url('images/food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#category2 {
+    background-image: url('images/tech.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#category3 {
+    background-image: url('images/fitness.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#category4 {
+    background-image: url('images/music.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#category5 {
+    background-image: url('images/movies.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-container {
+    text-align: center;
+    margin: auto;
+}
+.text-area {
+    text-align: center;
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.input-box {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*#singleview-page {
+    height: 100vh;
+}
+
+.login-page {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.userheader {
+    text-align: center;
+}*/
+
+
+/*specific needs */
+
+/*singlepost page*/
+
+#singlebody {
+    text-align: center;
+    margin-top: 100px;
+    clear: both;
+    color: black;
+}
+
+.single-post {
+    text-align: center;
+    margin: 5px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.single-blogpost {
+    border: 2px solid black;
+    margin: auto;
+    width: 60%;
+    font-size: 12px;
+}
+
+/*update post page*/
+
+#update-body {
+    clear: both;
+    text-align: center;
+}
+
+#userpage-body {
+    text-align: center;
+    margin-top: 100px;
+    clear: both;
+}
+
+.userpost-list {
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+    margin: 10px auto;
+}
+
+.userpost-item {
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/*welcome page */
+
+#welcome-container {
+    background-image: url('images/mountains.jpg');
+}
+
+.welcome-header {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#welcome-title {
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.login-container {
+    text-align: center;
+}
+
+#login-input {
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.login-box {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+
+#login-button {
+    color: #00a9e0;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 0 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*compose page */
+
+.compose-page {
+    margin-top: 100px;
+}
+
+.compose-content {
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    text-align: center;
+}
+
+.select-style {
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px auto;
+    width: 200px;
+    overflow: hidden;
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+    color: #00a9e0;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}

@@ -1,0 +1,33 @@
+<div class="container contentpage-background">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="header">
+            <div class="user-options">
+                <p class="logged-user">{{ loggedInUser.firstname }} //  
+                    <span> <button class="logout-button" ng-click="logout()">Logout</button> </span> 
+                </p>
+            </div>
+            <div class="header-title-container">
+                <h1 class="header-title">Open Spaces // <span> <button class="compose-button" ng-click="goToComposer()">Compose </button> </h1>
+            </div>
+        </div>
+    </nav>
+        <div class="compose-page">
+            <div class="compose-content">
+                <input type="text" placeholder="{{ post.title }}" class="input-box" ng-model="post.title">
+                <div class="select-style">
+                    <select id="category-select" ng-model="post.categoryid">
+                        <option value="{{ category.id }}" ng-repeat="category in categories">{{ category.name }}</option>
+                    </select>
+                </div>
+                <div class="select-style">
+                    <select id="user-select" ng-model="post.userid">
+                        <option value="{{ user.id }}" ng-repeat="user in users">{{ user.firstname }} {{ user.lastname }}</option>
+                    </select>
+                </div>
+            <button class="input-button" ng-click="update()">Update Post</button>
+            <div class="post-container">
+                <textarea class="text-area" ng-model="post.content" placeholder ="{{ post.content }}" rows="25" cols="100"></textarea>
+            </div>
+        </div>
+    </div>
+</div>

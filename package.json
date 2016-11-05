@@ -1,0 +1,33 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "extended blog project",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "source .variables && nodemon",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adlettow/Blog-Project.git"
+  },
+  "author": "Austin Lettow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adlettow/Blog-Project/issues"
+  },
+  "homepage": "https://github.com/adlettow/Blog-Project#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-mysql-session": "^1.2.0",
+    "express-session": "^1.14.1",
+    "mysql": "^2.11.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "prerender-node": "^2.4.0",
+    "sendgrid": "^4.7.0"
+  }
+}
